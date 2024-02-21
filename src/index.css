@@ -21,6 +21,22 @@ body {
     padding: 3rem 10%;
 }
 
+@media (max-width: 400px) {
+    #main-header {
+        padding: 2.5rem 1rem 0;
+    }
+
+    #main-header #title img {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    h1 {
+        font-size: 1.5rem !important
+        ;
+    }
+}
+
 #main-header #title {
     display: flex;
     gap: 1rem;
